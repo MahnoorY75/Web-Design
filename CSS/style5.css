@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&family=Pathway+Extreme:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&family=Pathway+Extreme:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&family=Pathway+Extreme:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* ******************************************** Nav Bar ********************************************* */
+.nav-bar
+{
+    display: flex;
+    height: 12vh;
+    background-color: black;
+  align-items: center;
+  align-content: center;
+  justify-content: left;
+    position: sticky;
+    top: 0;
+    /* cursor: pointer; */
+   
+}
+.logo
+{
+    width: 67px;
+    border-radius: 50px;
+   margin-left: 3rem;
+}
+.list a 
+{
+    color: white;
+    text-decoration: none;
+    margin: 0 4rem;
+    padding: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-left: 62rem;
+}
+.list a:hover
+{
+    border-bottom: 2px solid rgb(167, 167, 167);
+    width: 3px;
+    padding-bottom: 3px;
+    color: rgb(167, 167, 167);
+    
+}
+
+
+/* *************************************** Header ********************************** */
+.header
+{
+    height: 73vh;
+    background: rgb(0, 0,0, 0.5) url('https://img.freepik.com/free-photo/vintage-old-rustic-cutlery-dark_1220-4886.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:darken;
+    display: flex;
+justify-content: center;
+}
+.top
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+  margin-top: 23.95rem;
+}
+
+/* ************************************ Section 1 *******************************************/
+.section1
+{
+    height: 190vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+}
+
+
+/* ********************* Button ************************ */
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #42b3f0;
+    color: white;
+    padding: 20px 45px;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.border
+{
+    border: 3px solid  white;
+    background-color: #00293fce;
+}
+
+.btn2{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #42b3f0;
+    color: white;
+    padding: 20px 45px;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn2:hover
+{
+    cursor: pointer;
+    background-color: #0ea3f3;
+}
+.row
+{
+    display: flex;
+    margin-top: 3rem;
+}
+.box
+{
+    display: flex;
+    width: 33.3%;
+    height: 33.75rem;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+color: white;
+font-family: 'Roboto', sans-serif;
+    background-color: #161616;
+    border-radius: 15px;
+}
+.box1
+{
+margin-right:2rem;
+}
+.box2
+{
+margin-right: 2rem;
+}
+.img
+{
+    width: 84%;
+    height: 18rem;
+    margin-top: 2rem;
+
+}
+.img1
+{
+    background: url('https://t4.ftcdn.net/jpg/05/16/70/95/240_F_516709523_QpQgmMxwYFZ3Wag9L7hqH8ZlwVZpKB5n.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img2
+{
+    background: url('https://as2.ftcdn.net/v2/jpg/03/94/40/01/1000_F_394400119_Nuotp2Xbt1RCDs1BQHUUFri0QpsMMVea.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img3
+{
+    background: url('https://img.freepik.com/free-photo/chicken-salad-with-vegetables-olives_1220-4069.jpg?w=826&t=st=1687778295~exp=1687778895~hmac=a93cc9f55346d6a45b35641b62ad0df2c9a8596d176393f51f9dfec959438d2c');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title
+{
+    font-size: 25px;
+    margin-top: 15px;
+   
+}
+.subtitle
+{
+    font-size: 18px;
+}
+
+.img4
+{
+    background: url('https://img.freepik.com/free-photo/mackerel-fish-steak_1339-4727.jpg?w=826&t=st=1687778903~exp=1687779503~hmac=3c31796aeea22e2925fed6b387233cc8532f77fdad162473106ce6593406a2b5');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img5
+{
+    background: url('https://img.freepik.com/premium-photo/onion-rings-chicken-mustard-honey-sauce-gnocchi-rocket-white-plate-top-view_360442-124.jpg?w=826');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img6
+{
+    background: url('https://img.freepik.com/free-photo/bolognese-penne-pasta-served-plate_1220-4410.jpg?w=826&t=st=1687779094~exp=1687779694~hmac=c9a89979657fb1edef0e4a9743caf768048c77c5e42c88c5fc7454f586602e68');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img7
+{
+    background: url('https://img.freepik.com/free-photo/vegan-noodles-with-tofu-vegetables_1220-7526.jpg?w=826&t=st=1687779211~exp=1687779811~hmac=27c6a4fce49bcdfa81b575c737026b7b764af04265beaf46a41a5e5aefc6ed76');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img8
+{
+    background: url('https://img.freepik.com/free-photo/grilled-chicken-white-plate-with-salad-tomatoes-chilies-cut-into-pieces-wooden-table_1150-21416.jpg?w=740&t=st=1687779352~exp=1687779952~hmac=e711df0842e5f49972c252d5e4ec4df052188f6c2a7de02b39be7129793098bf');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img9
+{
+    background: url('https://img.freepik.com/premium-photo/healthy-food-beautiful-tasty-food-plate_135427-635.jpg?w=826');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* ********************************* Explore ************************************* */
+.explore
+{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 27rem;
+}
+
+/* ***************************************** Footer ************************************************** */
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    height: 23vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+}
+.last-para
+{
+    font-size: 25px;
+    margin-top: 8px;
+}
+.fa-brands
+{
+    margin: 0 10px;
+    margin-bottom: 2px;
+}
+
+.style
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+}

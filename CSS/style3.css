@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&family=Pathway+Extreme:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&family=Pathway+Extreme:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Lora:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,600&family=Pathway+Extreme:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* ******************************************** Nav Bar ********************************************* */
+.nav-bar
+{
+    display: flex;
+    height: 12vh;
+    background-color: black;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    /* cursor: pointer; */
+   
+}
+.logo
+{
+    width: 67px;
+    border-radius: 50px;
+   margin-right: 3rem;
+}
+.list a
+{
+    color: white;
+    text-decoration: none;
+    margin: 0 4rem;
+    padding: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+
+}
+.list a:hover
+{
+    border-bottom: 2px solid rgb(167, 167, 167);
+    width: 3px;
+    padding-bottom: 3px;
+    color: rgb(167, 167, 167);
+    
+}
+.nav-list {
+    display: flex;
+}
+
+
+/* *************************************************** Header ***************************************** */
+
+.header
+{
+    height: 80vh;
+  background: rgb(0, 0,0, 0.5) url('https://img.freepik.com/premium-photo/cooking-banner-seafood-top-view-free-space-your-text_187166-25509.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.intro
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    max-width: 60%;
+    height: 100%;
+    margin-left: 3rem;
+    padding-top: 10rem;
+}
+.name
+{
+font-size: 123px;
+}
+.para
+{
+font-size: 30px;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #42b3f0;
+    color: white;
+    padding: 20px 45px;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: #0ea3f3;
+}
+
+/* ***************************************** Section: 1 ********************************************* */
+
+.section1
+{
+    height: 55vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.explain
+{
+   
+    width: 55%;
+    text-align: center;
+    margin: auto;
+}
+.head1
+{
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.para2
+{
+font-size: 18px;
+}
+
+
+/* ******************************************* Main Menu *************************************** */
+.section2
+{
+  
+    height: 230vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+
+}
+.menu
+{
+    width: 80%;
+    font-family: 'Lato', sans-serif;
+font-size: 14px;
+height: 100%;
+}
+.head2
+{
+    font-family: 'Lora', serif;
+    font-size: 60px;
+text-align: center;
+}
+.menuu1
+{
+   
+    width: 100%;
+    height: 23.97%;
+    display: flex;
+}
+.menuu2
+{
+   
+    width: 100%;
+    height: 23.97%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text
+{
+ 
+width: 50%;
+padding-left: 2rem;
+padding-top: 2.5rem;
+}
+.img
+{
+
+width: 50%;
+}
+.img1
+{
+    background: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/b4ddf729e1f45891a76c4c95/top-close-up-view-plate-tablecloth-white-plate-stuffed-cabbage-with-herbs-lemon-sauce-grey-tablecloth-left-side-dark-table.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img2
+{
+    background: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/79a747aaa2ce57239962b5bc/top-view-delicious-cooked-eggplants-with-rice-lemon-feijoa-dark-surface-dinner-food-cooking-oil-rice-meal.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img3
+{
+    background: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/4b6d665bffdd533e92f3ac84/top-view-fresh-cabbage-salad-inside-plate-dark-background.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img4
+{
+    background: url('https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/0c0cdb1b1fce520fbd55a873/top-view-vegetable-chicken-salad-inside-plate-dark-health-salad-diet-food.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+/* ******************************************** Categories ********************************************* */
+
+.section3{
+    height: 85vh;
+    margin-top: 17rem;
+  padding-top: 1.5rem;
+   background-color: #eaeeee;
+   
+}
+
+.images
+{
+    width: 100%;
+    display: flex;
+    height: 58.25vh;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+.cat{
+margin: auto;
+width: 29%;
+height: 100%;
+}
+.cat1
+{
+background: url('https://d2jx2rerrg6sh3.cloudfront.net/image-handler/picture/2019/6/shutterstock_597151175.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.cat2
+{
+  background: url('https://images.immediate.co.uk/production/volatile/sites/30/2021/07/Buddha-bowl-salad-eade933.jpg?quality=90&resize=556,505');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cat3
+{
+   background: url('https://www.foodrepublic.com/img/gallery/korean-marinade-recipe/intro-import.jpg');
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box
+{
+    
+    width: 70%;
+    height: 70%;
+    border: 7px solid white;
+    margin: auto;
+    margin-top: 3.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 43px;
+    color: white;
+    background: rgb(0, 0, 0,0.5);
+}
+.box i{
+    color: #40b4f3;
+}
+.box:hover
+{
+    background: rgb(0, 0, 0,0.7);
+    cursor: pointer;
+   font-size: 53px;
+}
+
+.last-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+/* ***************************************** Footer ************************************************** */
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    height: 23vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+    margin-top: 5rem;
+}
+.last-para
+{
+    font-size: 25px;
+    margin-top: 8px;
+}
+.fa-brands
+{
+    margin: 0 10px;
+    margin-bottom: 2px;
+}
+
+.style
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+}
